@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Wykresy</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src='./rysowanie.js'></script>
+</head>
+<body>
+    <div>
+        <input type="button" value="Dodaj">
+    </div>
+    <div id="wzory"><div class="wzor">
+            <input type="input" placeholder="wzor"><br>
+            <input type="input" placeholder="kolor" value="orange">
+    </div></div>
+    <div>
+        <label><input id="daleko" type="radio" name="r" checked>-</label>
+        <label><input id="blisko" type="radio" name="r">+</label><br>
+        <label><input id="c" type="radio" name="r2" checked>C</label>
+        <label><input id="pi" type="radio" name="r2">π</label><br>
+    </div>
+    <canvas width="1800" height="1000" id="canvas"></canvas>
+</body>
+</html> 

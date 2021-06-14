@@ -1,0 +1,16 @@
+html{
+    background-color: #122334;
+    color: #aaaaaa
+}
+
+canvas{
+    border: 1px solid #234567;
+}
+
+#wzory{
+    display: flex;
+}
+
+.wzor{
+    border: #aaaaaa solid;
+}
